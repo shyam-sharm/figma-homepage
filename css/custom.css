@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+*{
+    font-family: 'Martel Sans', sans-serif;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+#my-nav{
+    gap: 30px;
+}
+#hemburgar{
+    display: flex;
+    height: 48px;
+    padding: 12px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+    width: 48px;
+    flex-direction: column;
+}
+#hemburgar div{
+    height: 2px;
+    border: 1.5px rgba(144, 147, 166,1) solid;
+    width: 24px;
+}
+
+.btn{
+    display: flex;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid var(--brand-yellow-bright, #FFE145) !important ;
+    height: 72px;
+}
+.botton{
+    display: flex;
+    gap: 20px;
+}
+.leaf{
+    display: flex;
+    justify-content: end;
+}
